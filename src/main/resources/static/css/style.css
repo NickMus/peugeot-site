@@ -1,0 +1,168 @@
+#loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background-color: #D7DEDE;
+    z-index: 99;
+    transition: all .09s ease-out;
+}
+
+#loading-image {
+    z-index: 100;
+}
+
+.site-header {
+    background-color: black;
+    font-size: 22px;
+}
+
+.site-header a {
+    color: #999;
+    text-decoration: none;
+}
+
+/*.container {*/
+/*    max-width: 960px;*/
+/*}*/
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: rgba(242, 242, 242, 0.8);
+    max-width: 100%;
+    overflow-x: hidden;
+    /*margin: 0 auto;*/
+}
+
+#h1_about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+#p_about {
+    max-width: 70%;
+    /*margin: 0 auto;*/
+    font-size: 22px;
+    font-family: 'Playfair Display', bold, serif;
+}
+
+#me_photo {
+    width: 20%;
+    height: 20%;
+    border-radius: 100px;
+    /*margin-left: 40px;*/
+}
+
+#row_block {
+    max-width: 75%;
+    margin: 100px auto;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /*width: 100%;*/
+    height: 30px;
+}
+
+#header_history {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#subheader_history {
+    margin-top: 70px;
+}
+
+#history_text {
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img_history {
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.c-model__content {
+    font-size: 22px;
+}
+
+#museum_block {
+    margin-top: 100px;
+}
+
+.c-model__content {
+    margin-bottom: 60px;
+    color: #999;
+    text-decoration: none;
+}
+
+#container_model {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.a {
+    text-decoration: none;
+}
+
+#type_car {
+    font-size: 24px;
+}
+
+#car_block {
+    background-image: url("https://img.freepik.com/free-vector/business-presentation-banner-with-blue-geometric-shape_1017-32330.jpg?w=1380&t=st=1663230538~exp=1663231138~hmac=c10ab9bd15385251eb9e888b6ec08501f63959f9222f3beb658d15ceefdcecbe");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#car_photo {
+    width: 800px;
+    height: 800px;
+    background-color: transparent;
+    border: none;
+}
+#car_desc_block {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 245px;
+}
+#car_desc_block_title {
+    font-size: 90px;
+    font-family: PeugeotNewR sans-serif;
+}
+#car_desc_block_model {
+    font-size: 65px;
+    color: darkblue;
+}
+#car_desc_block_text {
+    font-size: 65px;
+}
+#car_desc_card {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+#car_desc_card_years {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+#cont_car_desc {
+margin-top: 200px;
+}
