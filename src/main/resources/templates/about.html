@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Peugeot Site</title>
+    <link rel="stylesheet" th:href="@{https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{css/style.css}">
+    <link th:href="@{https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap}" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav id="header" class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" th:href="@{/}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="d-block mx-auto">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
+                    <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
+                    <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
+                    <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
+                    <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
+                    <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
+                </svg>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" th:href="@{/}">Новости</a>
+            <a class="py-2 d-none d-md-inline-block" th:href="@{/museum}">Виртуальный музей</a>
+            <a class="py-2 d-none d-md-inline-block" th:href="@{/models}">Католог моделей</a>
+            <a class="py-2 d-none d-md-inline-block" th:href="@{/history}">История Peugeot</a>
+            <a class="py-2 d-none d-md-inline-block" th:href="@{/about}">О сайте</a>
+            <!--            <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>-->
+            <!--            <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>-->
+        </div>
+    </nav>
+</header>
+<div id="h1_about">
+    <h1 class="display-5">О сайте</h1>
+</div>
+<div id="row_block" class="row">
+    <img id="me_photo" th:src="@{css/images/author.png}" alt="author">
+    <div id="p_about">
+        <p><em>
+            Здравствуйте и добро пожаловать на сайт посвященной автомобильной марке Peugeot.
+            Данный сайт создан поклонником этой марки для таких же поклонников и людей, которые хотели бы узнать для
+            себя что-то новое
+            из мира и истории компании Peugeot.
+            По всем вопросам связанными с работой сайта,
+            а также замечания и предложения, Вы можете оставить на почту.
+        </em></p>
+    </div>
+</div>
+<div class="text-center">
+    <a href="mailto:n.musinov@gmail.com"><img th:src="@{css/images/gmail.svg}"></a>
+<!--    <a href="https://t.me/NickY_1992"><img th:src="@{css/images/telegram.svg}" style="width: 48px" height="48px"></a>-->
+</div>
+<footer id="footer" class="footer">
+    <div class="container-fluid">
+        <p class="col-md-4 mb-0 text-muted">©2022 Все права защищены. </p>
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        </a>
+        <!--            <ul class="nav nav-pills">-->
+        <!--                <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Главная</a></li>-->
+        <!--                <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>-->
+        <!--                <li class="nav-item"><a href="#" class="nav-link">Повышение квалификации</a></li>-->
+        <!--                <li class="nav-item"><a href="#" class="nav-link">Публикации</a></li>-->
+        <!--            </ul>-->
+    </div>
+</footer>
+</body>
+</html>
